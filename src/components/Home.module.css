@@ -55,8 +55,19 @@
   font-size: 30px;
   top: 30px;
   right: 20px;
+  cursor: pointer;
+  border: none;
+  outline: none;
 }
 
 .search .search-icon:hover {
   background: #8a4acb;
+}
+
+.error-message {
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 15px;
+  background: #282828;
+  color: red !important;
 }
