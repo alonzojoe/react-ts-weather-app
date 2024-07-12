@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  border-radius: 5px;
+  background: #ffff;
+  width: 60vh;
+  border: 1px solid #fff;
+}

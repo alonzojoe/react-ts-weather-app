@@ -1,12 +1,14 @@
-import { useState } from 'react'
-
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import WeatherInfo from "./components/WeatherInfo";
 function App() {
-
   return (
     <>
-       <h1>Weather App</h1>
+      <Navbar />
+      <Home />
+      <WeatherInfo />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
