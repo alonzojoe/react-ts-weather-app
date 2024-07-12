@@ -1,30 +1,39 @@
-# React + TypeScript + Vite
+# React Weather App
+A simple weather app built with React, TypeScript, and the OpenWeatherMap API.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
 
-Currently, two official plugins are available:
+- Search weather information by location.
+- Display current temperature, weather condition, and other relevant data.
+- Creative UI UX
+# React Weather App
+A simple weather app built with React, TypeScript, and the OpenWeatherMap API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Weather App](weather-app.png)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Search weather information by location.
+- Display current temperature, weather condition, and other relevant data.
+- Creative UI/UX
 
-- Configure the top-level `parserOptions` property like this:
+## Installation
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+Clone the repository:
+
+```sh
+git clone https://github.com/alonzojoe/react-ts-weather-app
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+```sh
+run npm install
+```
+
+```sh
+run npm run dev
+```
+
+Usage
+Enter a location in the search input field.
+Click the "Search" button to fetch weather information for the entered location.
+The app will display the current temperature, weather condition, and other relevant data.
